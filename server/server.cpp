@@ -628,7 +628,7 @@ void on_message_ws(server* s, conn_hdl hdl, message_ptr msg)
 
 void on_init_ws(conn_hdl hdl, boost::asio::ip::tcp::socket & s)
 {
-    s.set_option(boost::asio::ip::tcp::no_delay(true));
+    //s.set_option(boost::asio::ip::tcp::no_delay(true));
 }
 
 void wsthreadmain(void *i_raw_out)
