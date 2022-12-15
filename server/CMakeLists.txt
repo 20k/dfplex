@@ -66,9 +66,11 @@ endif(UNIX)
 
 if (NOT DFPLEX_IXW)
 	# Boost/Asio
+	set(BOOST_ROOT "C:/Boost")
+	set(Boost_INCLUDE_DIR "C:/Boost")
 	set(Boost_FIND_REQUIRED TRUE)
-	set(Boost_USE_STATIC_LIBS OFF)
-	set(Boost_USE_SHARED_LIBS ON)
+	set(Boost_USE_STATIC_LIBS ON)
+	set(Boost_USE_SHARED_LIBS OFF)
 	set(Boost_USE_MULTITHREADED ON)
 	set(WS_BOOST_LIBS system)
 	find_package(Boost 1.38.0 REQUIRED COMPONENTS "${WS_BOOST_LIBS}")

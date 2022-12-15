@@ -264,8 +264,10 @@ std::string key_display_name(int32_t key)
 
 std::string blink_cursor()
 {
+	unsigned char cursor = 219;
+	
     if ((frames_elapsed / 24) % 2)
-        return std::string(1, static_cast<char>(219));
+        return std::string(1, cursor);
     else
         return std::string(1, '_');
 }

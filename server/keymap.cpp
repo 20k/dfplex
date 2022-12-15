@@ -3,6 +3,7 @@
  * Copyright (c) 2020 white-rabbit, ISC license
 */
 
+#include <iostream>
 #include "keymap.hpp"
 #include "parse_config.hpp"
 
@@ -14,6 +15,7 @@
 using std::string;
 using std::map;
 using std::vector;
+using std::endl;
 
 using namespace DFHack;
 

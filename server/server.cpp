@@ -3,6 +3,8 @@
  * Copyright (c) 2014 mifki, ISC license.
  * Copyright (c) 2020 white-rabbit, ISC license
  */
+ 
+#include <iostream>
 
 #include "dfplex.hpp"
 #include "server.hpp"

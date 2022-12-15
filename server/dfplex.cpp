@@ -72,6 +72,7 @@ using namespace df::enums;
 using df::global::world;
 using std::string;
 using std::vector;
+using std::endl;
 using df::global::gps;
 using df::global::init;
 
